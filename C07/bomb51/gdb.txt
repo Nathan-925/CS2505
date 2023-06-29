@@ -1,0 +1,48 @@
+Dump of assembler code for function secret_phase:
+   0x0000000000401247 <+0>:	push   %rbx
+   0x0000000000401248 <+1>:	call   0x4015c5 <read_line>
+   0x000000000040124d <+6>:	mov    $0xa,%edx
+   0x0000000000401252 <+11>:	mov    $0x0,%esi
+   0x0000000000401257 <+16>:	mov    %rax,%rdi
+   0x000000000040125a <+19>:	call   0x400c10 <strtol@plt>
+   0x000000000040125f <+24>:	mov    %rax,%rbx
+   0x0000000000401262 <+27>:	lea    -0x1(%rax),%eax
+   0x0000000000401265 <+30>:	cmp    $0x3e8,%eax
+   0x000000000040126a <+35>:	ja     0x40128d <secret_phase+70>
+   0x000000000040126c <+37>:	mov    %ebx,%esi
+   0x000000000040126e <+39>:	mov    $0x604110,%edi
+   0x0000000000401273 <+44>:	call   0x40120a <fun7>
+   0x0000000000401278 <+49>:	test   %eax,%eax
+   0x000000000040127a <+51>:	jne    0x401294 <secret_phase+77>
+   0x000000000040127c <+53>:	mov    $0x4024b0,%edi
+   0x0000000000401281 <+58>:	call   0x400b70 <puts@plt>
+   0x0000000000401286 <+63>:	call   0x4016f3 <phase_defused>
+   0x000000000040128b <+68>:	pop    %rbx
+   0x000000000040128c <+69>:	ret    
+   0x000000000040128d <+70>:	call   0x401550 <explode_bomb>
+   0x0000000000401292 <+75>:	jmp    0x40126c <secret_phase+37>
+   0x0000000000401294 <+77>:	call   0x401550 <explode_bomb>
+   0x0000000000401299 <+82>:	jmp    0x40127c <secret_phase+53>
+End of assembler dump.
+Dump of assembler code for function fun7:
+   0x000000000040120a <+0>:	test   %rdi,%rdi
+   0x000000000040120d <+3>:	je     0x401241 <fun7+55>
+   0x000000000040120f <+5>:	sub    $0x8,%rsp
+   0x0000000000401213 <+9>:	mov    (%rdi),%edx
+   0x0000000000401215 <+11>:	cmp    %esi,%edx
+   0x0000000000401217 <+13>:	jg     0x401225 <fun7+27>
+   0x0000000000401219 <+15>:	mov    $0x0,%eax
+   0x000000000040121e <+20>:	jne    0x401232 <fun7+40>
+   0x0000000000401220 <+22>:	add    $0x8,%rsp
+   0x0000000000401224 <+26>:	ret    
+   0x0000000000401225 <+27>:	mov    0x8(%rdi),%rdi
+   0x0000000000401229 <+31>:	call   0x40120a <fun7>
+   0x000000000040122e <+36>:	add    %eax,%eax
+   0x0000000000401230 <+38>:	jmp    0x401220 <fun7+22>
+   0x0000000000401232 <+40>:	mov    0x10(%rdi),%rdi
+   0x0000000000401236 <+44>:	call   0x40120a <fun7>
+   0x000000000040123b <+49>:	lea    0x1(%rax,%rax,1),%eax
+   0x000000000040123f <+53>:	jmp    0x401220 <fun7+22>
+   0x0000000000401241 <+55>:	mov    $0xffffffff,%eax
+   0x0000000000401246 <+60>:	ret    
+End of assembler dump.
