@@ -1,0 +1,80 @@
+Looking for occurrences of the byte: 69
+        You said:
+   Number of occurrences: 2
+   Offsets where found:    E0  35F
+Should be:    Number of occurrences: 2
+   Offsets where found:    E0  35F
+That is correct!
+
+Looking for occurrences of the byte: A8
+        You said:
+   Number of occurrences: 7
+   Offsets where found:    36  FF  174  255  25D  26A  29B
+Should be:    Number of occurrences: 7
+   Offsets where found:    36  FF  174  255  25D  26A  29B
+That is correct!
+
+Looking for occurrences of the byte: D3
+        You said:
+   Number of occurrences: 2
+   Offsets where found:    192  1D1
+Should be:    Number of occurrences: 2
+   Offsets where found:    192  1D1
+That is correct!
+
+Looking for occurrences of the byte: E4
+        You said:
+   Number of occurrences: 7
+   Offsets where found:    2B  FD  199  1B5  215  26F  3D1
+Should be:    Number of occurrences: 7
+   Offsets where found:    2B  FD  199  1B5  215  26F  3D1
+That is correct!
+
+Looking for occurrences of the byte: 13
+        You said:
+   Number of occurrences: 6
+   Offsets where found:    3B  C2  EE  1C4  285  356
+Should be:    Number of occurrences: 6
+   Offsets where found:    3B  C2  EE  1C4  285  356
+That is correct!
+
+Looking for occurrences of the byte: 4C
+        You said:
+   Number of occurrences: 6
+   Offsets where found:    39  7B  AF  D8  2F8  3EF
+Should be:    Number of occurrences: 6
+   Offsets where found:    39  7B  AF  D8  2F8  3EF
+That is correct!
+
+Looking for occurrences of the byte: 6D
+        You said:
+   Number of occurrences: 7
+   Offsets where found:    41  153  15B  167  27C  2B5  2E3
+Should be:    Number of occurrences: 7
+   Offsets where found:    41  153  15B  167  27C  2B5  2E3
+That is correct!
+
+Looking for occurrences of the byte: 32
+        You said:
+   Number of occurrences: 3
+   Offsets where found:    3E  15F  21C
+Should be:    Number of occurrences: 3
+   Offsets where found:    3E  15F  21C
+That is correct!
+
+Looking for occurrences of the byte: 8D
+        You said:
+   Number of occurrences: 5
+   Offsets where found:    46  84  1A5  28B  3A9
+Should be:    Number of occurrences: 5
+   Offsets where found:    46  84  1A5  28B  3A9
+That is correct!
+
+Looking for occurrences of the byte: 31
+        You said:
+   Number of occurrences: 3
+   Offsets where found:    1C7  236  2EE
+Should be:    Number of occurrences: 3
+   Offsets where found:    1C7  236  2EE
+That is correct!
+

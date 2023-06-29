@@ -1,0 +1,24 @@
+Summing 1 signed byte at offset 0xFC and 1 signed byte at offset 0x49
+   You said:  -82
+   Good!  That is correct.
+Summing 1 unsigned byte at offset 0xFC and 1 unsigned byte at offset 0x49
+   You said:  174
+   Good!  That is correct.
+Summing 2 signed byte at offset 0x16 and 2 signed byte at offset 0x2
+   You said:  -5052
+   Good!  That is correct.
+Summing 2 unsigned byte at offset 0x16 and 2 unsigned byte at offset 0x2
+   You said:  60484
+   Good!  That is correct.
+Summing 4 signed byte at offset 0x64 and 4 signed byte at offset 0xC3
+   You said:  341274509
+   Good!  That is correct.
+Summing 4 unsigned byte at offset 0x64 and 4 unsigned byte at offset 0xC3
+   You said:  341274509
+   Good!  That is correct.
+Summing 8 signed byte at offset 0xA6 and 8 signed byte at offset 0xD7
+   You said:  8819799554199552626
+   Good!  That is correct.
+Summing 8 unsigned byte at offset 0xA6 and 8 unsigned byte at offset 0xD7
+   You said:  8819799554199552626
+   Good!  That is correct.

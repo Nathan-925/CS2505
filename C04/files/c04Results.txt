@@ -1,0 +1,8 @@
+Running test of getBytesAtOffset().
+Running test of findOccurrencesOfByte().
+Running test of sumValuesAtOffsets().
+
+>>Scores from testing<<
+1 >> Score for getBytesAtOffset:       100 / 100
+2 >> Score for findOccurrencesOfByte:  100 / 100
+3 >> Score for sumValuesAtOffsets:     100 / 100

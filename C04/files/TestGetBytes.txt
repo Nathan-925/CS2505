@@ -1,0 +1,50 @@
+Looking for 4 bytes, starting at offset 3
+You said:    1B  27  43  C9
+Should be:   1B  27  43  C9
+That is correct!
+
+Looking for 6 bytes, starting at offset 50
+You said:    72  A6  96  01  C7  3E
+Should be:   72  A6  96  01  C7  3E
+That is correct!
+
+Looking for 5 bytes, starting at offset 25
+You said:    04  AD  C1  9B  5D
+Should be:   04  AD  C1  9B  5D
+That is correct!
+
+Looking for 2 bytes, starting at offset 31
+You said:    75  46
+Should be:   75  46
+That is correct!
+
+Looking for 10 bytes, starting at offset F2
+You said:    8E  41  BF  B1  0D  0C  08  2E  BD  F9
+Should be:   8E  41  BF  B1  0D  0C  08  2E  BD  F9
+That is correct!
+
+Looking for 3 bytes, starting at offset CB
+You said:    07  D4  71
+Should be:   07  D4  71
+That is correct!
+
+Looking for 7 bytes, starting at offset CE
+You said:    53  34  F9  73  34  8F  CE
+Should be:   53  34  F9  73  34  8F  CE
+That is correct!
+
+Looking for 8 bytes, starting at offset BB
+You said:    54  65  9A  F0  75  56  58  13
+Should be:   54  65  9A  F0  75  56  58  13
+That is correct!
+
+Looking for 9 bytes, starting at offset D2
+You said:    34  8F  CE  78  22  CC  4C  57  20
+Should be:   34  8F  CE  78  22  CC  4C  57  20
+That is correct!
+
+Looking for 9 bytes, starting at offset A3
+You said:    9D  B1  0A  A6  35  DF  F9  45  47
+Should be:   9D  B1  0A  A6  35  DF  F9  45  47
+That is correct!
+
